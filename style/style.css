@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-container{
+    text-align: center;
+}
+
+.btn{
+    padding: 14px 18px 14px 18px;
+    color:rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 8px;
+    background: rgb(82, 195, 3);
+    border: none;
+    cursor: pointer;
+}
+
+#hero{
+    height: 615px;
+    background-image: linear-gradient(0deg, rgb(16, 16, 16 ) -19.5%, rgba(16, 16, 16, 0) 100%), url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+#hero .hero-content{
+    width: 685px;
+}
+
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin-bottom: 32px;
+}
+
+#card-box{
+    width: 884px;
+    margin: 100px auto;
+}
+
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+}
+
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
+}
+
+.card{
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card .image-box{
+    width: 250px;
+}
+
+.card .image-box img{
+    width: 100%;
+}
+
+.card .shop{
+    padding: 10px 18px 10px 18px;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.card-view {
+    display: flex;
+}
+
+/* ===== Newsletter ===== */
+
+.newsletter-container{
+    display:flex;
+    min-height:350px;
+    margin-top: 40px;
+    font-family: Work Sans;
+}
+
+.newsletter-left img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.newsletter-right{
+    flex:1;
+    background:#f5f5f5;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+}
+
+.newsletter-right h2{
+    font-size:26px;
+    font-weight:600;
+    margin-bottom:10px;
+}
+
+.newsletter-right p{
+    font-size:14px;
+    color:#777;
+    margin-bottom:15px;
+}
+
+.follow{
+    font-size:14px;
+    margin-bottom:10px;
+}
+
+.social-icons{
+    display:flex;
+    gap:15px;
+    font-size:18px;
+    height: 20px;
+}
+
+.social-icons i{
+    cursor:pointer;
+    transition:.3s;
+}
+
+.social-icons i:hover{
+    color:#e63946;
+}
+
+
+/* ===== Offer Card ===== */
+
+.offer-card{
+    background:#fff;
+    width:300px;
+    margin:80px auto;
+    text-align:center;
+    padding:25px;
+    border-radius:8px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
+
+.offer-card img{
+    width:100%;
+    border-radius:6px;
+    margin-bottom:15px;
+}
+
+.tag{
+    padding:4px 12px;
+    font-size:12px;
+    border-radius:4px;
+    font-family: Work Sans;
+    background: rgba(82, 195, 3, 0.15);
+}
+
+.offer-card h3{
+    margin:15px 0 8px;
+    font-size:20px;
+}
+
+.offer-card p{
+    font-size:13px;
+    color:#777;
+    margin-bottom:20px;
+}
+
+.offer-card button{
+    background:#3cb043;
+    color:#fff;
+    border:none;
+    padding:10px 18px;
+    border-radius:5px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.offer-card button:hover{
+    background:#2e8b57;
+}
+
+
+/* ===== Bottom Social Overlay ===== */
+
+.social-overlay{
+    height: 615px;
+  background:   url(../assets/social-bg.png);
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 20px;
+}
+
+.social-overlay h2{
+    font-size:26px;
+    margin-bottom:10px;
+}
+
+.social-overlay p{
+    font-size:14px;
+    margin-bottom:15px;
+    color:#ddd;
+}
+
+.l{
+    font-family: "Work Sans", sans-serif;
+}
+
+
+
+.social-text{
+    text-align: center;
+        font-family: Work Sans;
+        margin-top: 500px;
+}
+
+/* Main Wrapper */
+.a {
+    background: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), 
+                url('your-image.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 50px 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Inner Content */
+.b { max-width: 800px; margin: 0 auto; }
+
+/* Heading */
+.c { font-size: 26px; font-weight: bold; color: #000; margin-bottom: 8px; }
+
+/* Subtext */
+.d { font-size: 14px; color: #555; margin-bottom: 25px; }
+
+/* Divider Line Container */
+.e {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.e::before, .e::after {
+    content: "";
+    flex: 1;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Follow Us Text */
+.f { padding: 0 15px; font-weight: 600; color: #333; font-size: 15px; }
+
+/* Social Icons Container */
+.g { display: flex; justify-content: center; gap: 15px; margin-top: 15px; }
+
+/* Icons Style */
+.g img { width: 28px; height: 28px; opacity: 0.8; transition: 0.3s; }
+
+.g img:hover { opacity: 1; transform: translateY(-3px); }
